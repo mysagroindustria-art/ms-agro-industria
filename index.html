@@ -588,5 +588,17 @@
     </div>
   </footer>
 
+<script>
+document.querySelectorAll('.stock').forEach(boton => {
+  const enlace = document.createElement('a');
+  enlace.href = 'https://wa.me/5491166468829';
+  enlace.target = '_blank';
+  enlace.className = 'stock';
+  enlace.style.textDecoration = 'none';
+  enlace.textContent = 'Consultar disponibilidad';
+  boton.replaceWith(enlace);
+});
+</script>
+
 </body>
 </html>
