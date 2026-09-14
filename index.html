@@ -32,15 +32,15 @@
     }
 
     /* ENCABEZADO */
-    header {
-      background: #0b5b2c;
-      color: white;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      header{ 
+  background: white;
+  color: #0b5b2c;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
     }
-
+    
     .nav {
       min-height: 75px;
       display: flex;
@@ -321,13 +321,17 @@
 <body>
 
   <!-- ENCABEZADO -->
-  <header>
-    <div class="container nav">
+  <header> <div class="container nav">
 
       <a href="#inicio" class="brand">
-        <img src="logo-ms.jpg" alt="M&S Agro & Industria">
-        <span>M&S Agro & Industria</span>
+  <img src="logo-ms.jpg" alt="M&S Agro & Industria">
+
+  <div>
+    <div>M&S Agro & Industria</div>
+    <small>Soluciones para el campo y la industria</small>
+  </div>
       </a>
+    <button class="menu-toggle">☰</button>
 
       <nav>
         <a href="#inicio">Inicio</a>
@@ -338,7 +342,8 @@
 
     </div>
   </header>
-
+  
+  
 
   <!-- INICIO -->
   <main>
