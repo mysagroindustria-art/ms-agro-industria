@@ -16,6 +16,7 @@ img{max-width:100%}
 .brand img{width:165px;display:block}
 nav{display:flex;gap:25px;font-weight:600;font-size:.92rem}
 nav a{transition:.2s}
+nav a{color:var(--green-dark)}
 nav a:hover{color:var(--green)}
 
 .hero{min-height:650px;display:flex;align-items:center;background:radial-gradient(circle at 85% 35%,#dff4e5 0,#fff 35%),linear-gradient(135deg,#fff,#f4faf6)}
