@@ -1,27 +1,102 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
+
 <head>
+
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="M&S Agro & Industria - Insumos y productos para el sector agroindustrial">
-  <meta name="description" content="M&S Agro & Industria - Hilos plásticos, hilo papero, hilo cebollero, cintas tutoras, flejes plásticos e insumos para el agro, embalaje e industria. Venta mayorista en Buenos Aires.">
-<meta name="theme-color" content="#0b5b2c">
-<title>M&S Agro & Industria | Hilos, Flejes, Cintas e Insumos Agroindustriales</title>
-<meta property="og:title" content="M&S Agro & Industria">
-<meta property="og:site_name" content="M&S Agro & Industria">
-<meta property="og:description" content="Hilos plásticos, hilos paperos y cebolleros, cintas tutoras, flejes plásticos e insumos para agro, embalaje e industria.">
-<meta name="application-name" content="M&S Agro & Industria">
+
+  <meta
+    name="description"
+    content="M&S Agro & Industria: fleje manual, fleje semiautomático, hilo cebollero, hilo papero, hilo para rotoenfardadora, cintas, film stretch e insumos para agro, embalaje e industria."
+  >
+
+  <meta name="robots" content="index, follow">
+
+  <meta name="theme-color" content="#0b5b2c">
+
+  <title>
+    Fleje Manual e Hilo Cebollero | M&S Agro & Industria
+  </title>
+
+
+  <!-- REDES SOCIALES -->
+
+  <meta
+    property="og:title"
+    content="M&S Agro & Industria | Flejes, Hilos, Cintas y Embalaje"
+  >
+
+  <meta
+    property="og:site_name"
+    content="M&S Agro & Industria"
+  >
+
+  <meta
+    property="og:description"
+    content="Fleje manual, fleje semiautomático, hilo cebollero, hilo papero, hilo para rotoenfardadora, cintas y film stretch para agro, embalaje e industria."
+  >
+
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <meta
+    property="og:locale"
+    content="es_AR"
+  >
+
+  <meta
+    name="application-name"
+    content="M&S Agro & Industria"
+  >
+
+
+  <!-- DATOS ESTRUCTURADOS DE LA EMPRESA -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "M&S Agro & Industria",
+    "description": "Comercialización de insumos y productos para el agro, embalaje e industria.",
+    "telephone": "+54 9 11 6646-8829",
+    "email": "mysagroindustria@gmail.com",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Buenos Aires, Argentina"
+    }
+  }
+  </script>
+
+
+  <!-- DATOS ESTRUCTURADOS DEL SITIO -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "M&S Agro & Industria",
+    "description": "Flejes, hilos, cintas, film stretch e insumos para agro, embalaje e industria."
+  }
+  </script>
+
+
   <style>
+
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
 
+
     html {
       scroll-behavior: smooth;
     }
+
 
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -30,22 +105,28 @@
       line-height: 1.6;
     }
 
+
     .container {
       width: 92%;
       max-width: 1200px;
       margin: auto;
     }
 
-    /* ENCABEZADO */
-      header{ 
-  background: #0b5b2c;
-  color: #0b5b2c;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+
+    /* =========================
+       ENCABEZADO
+    ========================= */
+
+    header {
+      background: #0b5b2c;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
     }
-    
+
+
     .nav {
       min-height: 75px;
       display: flex;
@@ -53,6 +134,7 @@
       justify-content: space-between;
       gap: 20px;
     }
+
 
     .brand {
       display: flex;
@@ -63,6 +145,7 @@
       font-size: 18px;
     }
 
+
     .brand img {
       width: 58px;
       height: 58px;
@@ -72,11 +155,13 @@
       border-radius: 50%;
     }
 
+
     nav {
       display: flex;
       gap: 20px;
       flex-wrap: wrap;
     }
+
 
     nav a {
       color: white;
@@ -85,16 +170,32 @@
       transition: 0.3s;
     }
 
+
     nav a:hover {
       color: #d5eecf;
     }
 
-    /* PORTADA */
+
+    .menu-toggle {
+      display: none;
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+
+    /* =========================
+       PORTADA
+    ========================= */
+
     .hero {
       background: linear-gradient(135deg, #0b5b2c, #198044);
       color: white;
       padding: 80px 0;
     }
+
 
     .hero-content {
       display: grid;
@@ -103,10 +204,12 @@
       align-items: center;
     }
 
+
     .hero h1 {
       font-size: 46px;
       margin-bottom: 15px;
     }
+
 
     .hero h2 {
       font-size: 24px;
@@ -114,14 +217,17 @@
       margin-bottom: 20px;
     }
 
+
     .hero p {
       font-size: 18px;
       margin-bottom: 25px;
     }
 
+
     .hero-image {
       text-align: center;
     }
+
 
     .hero-image img {
       max-width: 280px;
@@ -131,6 +237,7 @@
       padding: 15px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.25);
     }
+
 
     .btn {
       display: inline-block;
@@ -143,14 +250,20 @@
       margin-top: 10px;
     }
 
+
     .btn:hover {
       background: #e8f5e9;
     }
 
-    /* SECCIONES */
+
+    /* =========================
+       SECCIONES
+    ========================= */
+
     section {
       padding: 60px 0;
     }
+
 
     .section-title {
       text-align: center;
@@ -159,10 +272,15 @@
       margin-bottom: 40px;
     }
 
-    /* EMPRESA */
+
+    /* =========================
+       EMPRESA
+    ========================= */
+
     .empresa {
       background: white;
     }
+
 
     .empresa-box {
       max-width: 900px;
@@ -171,16 +289,27 @@
       font-size: 18px;
     }
 
-    /* PRODUCTOS */
+
+    .empresa-box p {
+      margin-bottom: 18px;
+    }
+
+
+    /* =========================
+       PRODUCTOS
+    ========================= */
+
     .productos {
       background: #f5f7f5;
     }
+
 
     .products-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 25px;
     }
+
 
     .product-card {
       background: white;
@@ -191,10 +320,12 @@
       text-align: center;
     }
 
+
     .product-card:hover {
       transform: translateY(-5px);
       box-shadow: 0 8px 22px rgba(0,0,0,0.16);
     }
+
 
     .product-card img {
       width: 100%;
@@ -204,9 +335,11 @@
       background: white;
     }
 
+
     .product-card-content {
       padding: 18px;
     }
+
 
     .product-card h3 {
       color: #0b5b2c;
@@ -214,10 +347,12 @@
       font-size: 19px;
     }
 
+
     .product-card p {
       color: #555;
       font-size: 15px;
     }
+
 
     .stock {
       display: inline-block;
@@ -228,26 +363,42 @@
       border-radius: 6px;
       font-size: 13px;
       font-weight: bold;
+      text-decoration: none;
     }
 
-    /* CONTACTO */
+
+    .stock:hover {
+      background: #d5ecd8;
+    }
+
+
+    /* =========================
+       CONTACTO
+    ========================= */
+
     .contacto {
       background: white;
       text-align: center;
     }
+
 
     .contact-box {
       max-width: 700px;
       margin: auto;
     }
 
+
     .contact-box p {
       font-size: 18px;
       margin: 12px 0;
     }
 
+
     .contact-btn {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
       margin-top: 20px;
       padding: 14px 28px;
       background: #0b5b2c;
@@ -257,11 +408,36 @@
       font-weight: bold;
     }
 
+
     .contact-btn:hover {
       background: #198044;
     }
 
-    /* PIE */
+
+    .contact-btn img {
+      width: 30px;
+      height: 30px;
+    }
+
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 28px;
+      margin-top: 22px;
+    }
+
+
+    .social-links img {
+      width: 32px;
+      height: 32px;
+    }
+
+
+    /* =========================
+       PIE
+    ========================= */
+
     footer {
       background: #083d20;
       color: white;
@@ -270,382 +446,1130 @@
       font-size: 14px;
     }
 
-    /* CELULAR */
+
+    footer p {
+      margin: 4px 0;
+    }
+
+
+    /* =========================
+       CELULAR
+    ========================= */
+
     @media (max-width: 768px) {
 
       .nav {
-        flex-direction: column;
-        padding: 12px 0;
+        min-height: 65px;
+        flex-direction: row;
+        padding: 8px 0;
+        flex-wrap: wrap;
       }
+
+
+      .brand img {
+        width: 48px;
+        height: 48px;
+      }
+
+
+      .menu-toggle {
+        display: block;
+      }
+
 
       nav {
-        justify-content: center;
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
         gap: 12px;
+        padding: 15px 0;
       }
 
-      nav a {
-        font-size: 14px;
+
+      nav.menu-open {
+        display: flex;
       }
+
+
+      nav a {
+        font-size: 15px;
+      }
+
 
       .hero {
         padding: 55px 0;
       }
+
 
       .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
       }
 
+
       .hero h1 {
         font-size: 34px;
       }
+
 
       .hero h2 {
         font-size: 21px;
       }
 
+
       .hero p {
         font-size: 16px;
       }
+
 
       .hero-image {
         order: -1;
       }
 
+
       .section-title {
         font-size: 27px;
       }
 
+
       section {
         padding: 45px 0;
       }
+
     }
+
   </style>
+
 </head>
+
 
 <body>
 
-  <!-- ENCABEZADO -->
-  <header> <div class="container nav">
+
+  <!-- =========================
+       ENCABEZADO
+  ========================= -->
+
+  <header>
+
+    <div class="container nav">
+
 
       <a href="#inicio" class="brand">
-  <img src="logo-ms.jpg" alt="M&S Agro & Industria">
 
-  
+        <img
+          src="logo-ms.jpg"
+          alt="M&S Agro & Industria">
+
       </a>
-    <button class="menu-toggle">☰</button>
 
-      <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#empresa">Empresa</a>
-        <a href="#productos">Productos</a>
-        <a href="#contacto">Contacto</a>
+
+      <button
+        class="menu-toggle"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        type="button">
+
+        ☰
+
+      </button>
+
+
+      <nav aria-label="Navegación principal">
+
+        <a href="#inicio">
+          Inicio
+        </a>
+
+        <a href="#empresa">
+          Empresa
+        </a>
+
+        <a href="#productos">
+          Productos
+        </a>
+
+        <a href="#contacto">
+          Contacto
+        </a>
+
       </nav>
 
-    </div>
-  </header>
-  
-  
 
-  <!-- INICIO -->
+    </div>
+
+  </header>
+
+
+
+  <!-- =========================
+       CONTENIDO PRINCIPAL
+  ========================= -->
+
   <main>
 
-    <section id="inicio" class="hero">
+
+    <!-- =========================
+         INICIO
+    ========================= -->
+
+    <section
+      id="inicio"
+      class="hero">
+
       <div class="container hero-content">
 
-        <div>
-          <h1>M&S Agro & Industria</h1>
 
-          <h2>Soluciones para el agro y la industria</h2>
+        <div>
+
+
+          <h1>
+            M&S Agro & Industria
+          </h1>
+
+
+          <h2>
+            Flejes, hilos, cintas y productos para agro, embalaje e industria
+          </h2>
+
 
           <p>
-            Comercializamos insumos y productos para el sector agroindustrial,
-            ofreciendo atención personalizada y soluciones para cada necesidad.
+            Comercializamos fleje manual, fleje semiautomático,
+            hilo cebollero, hilo papero, hilo para rotoenfardadora,
+            cintas agrícolas, film stretch y otros insumos para
+            el sector agroindustrial, embalaje e industria.
           </p>
 
-          <a href="#productos" class="btn">
+
+          <a
+            href="#productos"
+            class="btn">
+
             Ver productos
+
           </a>
+
+
         </div>
+
 
         <div class="hero-image">
-          <img src="logo-ms.jpg" alt="Logo M&S Agro & Industria">
+
+
+          <img
+            src="logo-ms.jpg"
+            alt="M&S Agro & Industria - insumos para agro, embalaje e industria">
+
         </div>
 
+
       </div>
+
     </section>
 
 
-    <!-- EMPRESA -->
-    <section id="empresa" class="empresa">
+
+    <!-- =========================
+         EMPRESA
+    ========================= -->
+
+    <section
+      id="empresa"
+      class="empresa">
+
+
       <div class="container">
 
-        <h2 class="section-title">Nuestra empresa</h2>
+
+        <h2 class="section-title">
+          M&S Agro & Industria
+        </h2>
+
 
         <div class="empresa-box">
-          <p>
-            En <strong>M&S Agro & Industria</strong> trabajamos para brindar
-            productos y soluciones destinadas al agro, la industria y el
-            embalaje.
-          </p>
+
 
           <p>
-            Nuestro objetivo es ofrecer productos de calidad,
-            asesoramiento y atención personalizada para nuestros clientes.
+            En <strong>M&S Agro & Industria</strong> comercializamos
+            insumos y productos destinados al agro, la industria
+            y el embalaje.
           </p>
 
+
           <p>
-            <strong>Consultá disponibilidad antes de realizar tu pedido.</strong>
+            Ofrecemos soluciones para embalaje, aseguramiento de cargas,
+            enfardado agrícola y diferentes aplicaciones agroindustriales.
           </p>
+
+
+          <p>
+            Trabajamos con productos como
+            <strong>
+              fleje plástico, hilo cebollero, hilo papero,
+              hilo para rotoenfardadora, cintas y film stretch.
+            </strong>
+          </p>
+
+
+          <p>
+            <strong>
+              Consultá disponibilidad antes de realizar tu pedido.
+            </strong>
+          </p>
+
+
         </div>
 
+
       </div>
+
     </section>
 
 
-    <!-- PRODUCTOS -->
-    <section id="productos" class="productos">
+
+    <!-- =========================
+         PRODUCTOS
+    ========================= -->
+
+    <section
+      id="productos"
+      class="productos">
+
+
       <div class="container">
 
-        <h2 class="section-title">Nuestros productos</h2>
+
+        <h2 class="section-title">
+          Productos para agro, embalaje e industria
+        </h2>
+
 
         <div class="products-grid">
 
-          <!-- FLEJE MANUAL -->
-          <div class="product-card">
-            <img src="fleje-manual.jpg" alt="Fleje manual">
+
+
+          <!-- =========================
+               FLEJE MANUAL
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="fleje-manual.jpg"
+              alt="Fleje manual negro de polipropileno para embalaje"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Fleje manual</h3>
-              <p>Fleje manual para embalaje y aseguramiento de cargas. Insumo para embalaje y uso industrial.</p>
-              <span class="stock">Consultar disponibilidad</span>
+
+
+              <h3>
+                Fleje manual
+              </h3>
+
+
+              <p>
+                Fleje plástico negro de polipropileno de alta resistencia
+                para embalaje manual, cajas, pallets y aseguramiento de cargas.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
             </div>
-          </div>
-          
-          
-<!-- FLEJE SEMIAUTOMATICO -->
-          <div class="product-card">
-            <img src="fleje semiautomático blanco.jpg" alt="Fleje semiautomático">
+
+
+          </article>
+
+
+
+          <!-- =========================
+               FLEJE SEMIAUTOMÁTICO
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="fleje semiautomático blanco.jpg"
+              alt="Fleje semiautomático blanco de polipropileno para embalaje"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Fleje semiautomático</h3>
-              <p>Fleje semiautomático para máquinas de embalaje y aseguramiento de cargas. Insumo para embalaje industrial.</p>
-              <span class="stock">Consultar disponibilidad</span>
-            </div>
-          </div>
-          
 
-      <!-- HILO CINTA -->
-          <div class="product-card">
-            <img src="cinta de atar recuperada.jpg" alt="Cinta de atar">
+
+              <h3>
+                Fleje semiautomático
+              </h3>
+
+
+              <p>
+                Fleje de polipropileno para máquinas flejadoras
+                semiautomáticas y líneas de embalaje.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- =========================
+               CINTA DE ATAR
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="cinta de atar recuperada.jpg"
+              alt="Cinta de atar para aplicaciones agroindustriales"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Hilo cinta</h3>
-              <p>Hilo cinta para aplicaciones agroindustriales.</p>
-              <span class="stock">Consultar disponibilidad</span>
+
+
+              <h3>
+                Cinta de atar
+              </h3>
+
+
+              <p>
+                Cinta de polietileno recuperado para atado y
+                diferentes aplicaciones agroindustriales.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
             </div>
-          </div>    
 
 
-      <!-- CINTA TUTORA -->
-          <div class="product-card">
-            <img src="cinta tutora negra.jpg" alt="Cinta tutora">
+          </article>
+
+
+
+          <!-- =========================
+               CINTA TUTORA
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="cinta tutora negra.jpg"
+              alt="Cinta tutora negra para tomate, pimiento, viñedos y cultivos"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Cinta tutora</h3>
-              <p>Cinta para aplicaciones agrícolas.</p>
-              <span class="stock">Consultar disponibilidad</span>
+
+
+              <h3>
+                Cinta tutora
+              </h3>
+
+
+              <p>
+                Cinta tutora negra para sostener tomate, pimiento,
+                viñedos y diferentes cultivos agrícolas.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
             </div>
-          </div>    
 
 
-        
+          </article>
 
-          <!-- HILO ROTOENFARDADORA -->
-          <div class="product-card">
-            <img src="hilo-rotoenfardadora.jpg" alt="Hilo rotoenfardadora">
+
+
+          <!-- =========================
+               HILO ROTOENFARDADORA
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="hilo-rotoenfardadora.jpg"
+              alt="Hilo para rotoenfardadora y enfardado agrícola"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Hilo para rotoenfardadora</h3>
-              <p>Hilo para enfardado de forraje.</p>
-              <span class="stock">Consultar disponibilidad</span>
-            </div>
-          </div>
 
-          
-<!-- CINTA VERDINA -->
-          <div class="product-card">
-            <img src="cinta-verdina.jpg" alt="Cinta verdina">
+
+              <h3>
+                Hilo para rotoenfardadora
+              </h3>
+
+
+              <p>
+                Hilo de polipropileno de alta tenacidad para
+                atado de fardos y enfardado agrícola.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- =========================
+               CINTA VERDINA
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="cinta-verdina.jpg"
+              alt="Cinta verdina para aplicaciones agroindustriales y de atado"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Cinta verdina</h3>
-              <p>Cinta para aplicaciones agroindustriales.</p>
-              <span class="stock">Consultar disponibilidad</span>
+
+
+              <h3>
+                Cinta verdina
+              </h3>
+
+
+              <p>
+                Cinta para diferentes aplicaciones
+                agroindustriales y de atado.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
             </div>
-          </div>
-          
-<!-- HILO CEBOLLERO -->
-          <div class="product-card">
-            <img src="hilo cebollero-papero.jpg" alt="Hilo cebollero">
+
+
+          </article>
+
+
+
+          <!-- =========================
+               HILO CEBOLLERO Y PAPERO
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="hilo cebollero-papero.jpg"
+              alt="Hilo cebollero y papero para atado de cebolla y hortalizas"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Hilo cebollero</h3>
-              <p>Hilo para diferentes aplicaciones agrícolas.</p>
-              <span class="stock">Consultar disponibilidad</span>
-            </div>
-       </div>
 
-          
-        <!-- FILM MANUAL -->
-          <div class="product-card">
-          <img src="film-manual-alternativa.jpg" alt="Film manual">
+
+              <h3>
+                Hilo cebollero y papero
+              </h3>
+
+
+              <p>
+                Hilo de polietileno para atado de cebolla,
+                hortalizas, cosechas y diferentes aplicaciones agrícolas.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- =========================
+               FILM STRETCH MANUAL
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="film-manual-alternativa.jpg"
+              alt="Film stretch manual transparente para pallets, cajas y embalaje"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Film manual</h3>
-              <p>Film para embalaje manual.</p>
-              <span class="stock">Consultar disponibilidad</span>
-            </div>
-          </div>  
-          
-          
 
-          <!-- FILM INDUSTRIAL -->
-          <div class="product-card">
-            <img src="film-industrial.jpg" alt="Film industrial">
+
+              <h3>
+                Film stretch manual
+              </h3>
+
+
+              <p>
+                Film stretch transparente para embalaje manual,
+                pallets, cajas y protección de cargas.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- =========================
+               FILM STRETCH INDUSTRIAL
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="film-industrial.jpg"
+              alt="Film stretch industrial para pallets y embalaje de alto volumen"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Film industrial</h3>
-              <p>Film para embalaje y protección de productos.</p>
-              <span class="stock">Consultar disponibilidad</span>
+
+
+              <h3>
+                Film stretch industrial
+              </h3>
+
+
+              <p>
+                Film stretch para pallets grandes,
+                producción continua y embalaje industrial.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
             </div>
-         </div>
 
-          
 
-          <!-- HEBILLAS -->
-          <div class="product-card">
-            <img src="hebilla de alambre.jpg" alt="Hebillas">
+          </article>
+
+
+
+          <!-- =========================
+               HEBILLAS
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="hebilla de alambre.jpg"
+              alt="Hebillas de alambre para fleje manual y embalaje"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Hebillas</h3>
-              <p>Hebillas para flejes y embalaje.</p>
-              <span class="stock">Consultar disponibilidad</span>
-            </div>
-          </div>
 
-          <!-- PRECINTOS -->
-          <div class="product-card">
-            <img src="precintos de chapa.jpg" alt="Precintos de chapa">
+
+              <h3>
+                Hebillas de alambre
+              </h3>
+
+
+              <p>
+                Hebillas de alambre para utilizar con fleje
+                manual y aplicaciones de embalaje.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- =========================
+               PRECINTOS
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="precintos de chapa.jpg"
+              alt="Precintos de chapa para embalaje y aplicaciones industriales"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Precintos de chapa</h3>
-              <p>Precintos para embalaje y aplicaciones industriales.</p>
-              <span class="stock">Consultar disponibilidad</span>
+
+
+              <h3>
+                Precintos de chapa
+              </h3>
+
+
+              <p>
+                Precintos de chapa para embalaje,
+                aseguramiento de cargas y aplicaciones industriales.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
             </div>
-          </div>
 
 
-          
+          </article>
 
 
-          
+
+          <!-- =========================
+               CINTA AUTOADHESIVA
+          ========================= -->
+
+          <article class="product-card">
 
 
-      <!-- CINTA AUTOADHESIVA -->
-          <div class="product-card">
-            <img src="cinta-autoadhesiva.jpg" alt="Cinta autoadhesiva">
+            <img
+              src="cinta-autoadhesiva.jpg"
+              alt="Cinta autoadhesiva para embalaje y cerrado de cajas"
+              loading="lazy">
+
+
             <div class="product-card-content">
-              <h3>Cinta autoadhesiva</h3>
-              <p>Cintas para embalaje y uso industrial.</p>
-              <span class="stock">Consultar disponibilidad</span>
+
+
+              <h3>
+                Cinta autoadhesiva
+              </h3>
+
+
+              <p>
+                Cinta autoadhesiva para embalaje,
+                cerrado de cajas y diferentes usos industriales.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
             </div>
-          </div>
 
 
-          
+          </article>
 
 
-          
 
-       <!-- FLEJADORA SEMIAUTOMÁTICA -->
-<div class="product-card">
-  <img src="https://raw.githubusercontent.com/mysagroindustria-art/ms-agro-industria/main/m%C3%A1quina%20fleje-semiautomatica.jpg" alt="Flejadora semiautomática">
-  <div class="product-card-content">
-    <h3>Flejadora semiautomática</h3>
-    <p>Máquina para flejado de productos y embalajes.</p>
-    <span class="stock">Consultar disponibilidad</span>
-  </div>
-</div>
+          <!-- =========================
+               FLEJADORA SEMIAUTOMÁTICA
+          ========================= -->
 
-<!-- TENSORA DE FLEJE MANUAL -->
-<div class="product-card">
-  <img src="maquina-tensora-h21.jpg" alt="Tensora de fleje manual">
-  <div class="product-card-content">
-    <h3>Tensora de fleje manual</h3>
-    <p>Herramienta manual para tensar fleje.</p>
-    <span class="stock">Consultar disponibilidad</span>
-  </div>
-</div>
+          <article class="product-card">
+
+
+            <img
+              src="https://raw.githubusercontent.com/mysagroindustria-art/ms-agro-industria/main/m%C3%A1quina%20fleje-semiautomatica.jpg"
+              alt="Flejadora semiautomática para productos y embalajes"
+              loading="lazy">
+
+
+            <div class="product-card-content">
+
+
+              <h3>
+                Flejadora semiautomática
+              </h3>
+
+
+              <p>
+                Máquina para flejado de productos,
+                cajas y embalajes.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
+            </div>
+
+
+          </article>
+
+
+
+          <!-- =========================
+               TENSORA DE FLEJE MANUAL
+          ========================= -->
+
+          <article class="product-card">
+
+
+            <img
+              src="maquina-tensora-h21.jpg"
+              alt="Tensora de fleje manual para trabajos de embalaje"
+              loading="lazy">
+
+
+            <div class="product-card-content">
+
+
+              <h3>
+                Tensora de fleje manual
+              </h3>
+
+
+              <p>
+                Herramienta manual para tensar fleje
+                en trabajos de embalaje.
+              </p>
+
+
+              <a
+                class="stock"
+                href="https://wa.me/5491166468829"
+                target="_blank"
+                rel="noopener">
+
+                Consultar disponibilidad
+
+              </a>
+
+
+            </div>
+
+
+          </article>
+
+
+        </div>
+
       </div>
+
     </section>
 
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="contacto">
+
+    <!-- =========================
+         CONTACTO
+    ========================= -->
+
+    <section
+      id="contacto"
+      class="contacto">
+
+
       <div class="container contact-box">
 
-        <h2 class="section-title">Contacto</h2>
+
+        <h2 class="section-title">
+          Contacto
+        </h2>
+
 
         <p>
           ¿Necesitás información sobre nuestros productos?
         </p>
+
 
         <p>
           Comunicate con nosotros para consultar precios,
           disponibilidad y realizar pedidos.
         </p>
 
-     <div>
-  <a
-    class="contact-btn"
-    href="https://wa.me/5491166468829"
-    target="_blank">
-    <img src="https://cdn.simpleicons.org/whatsapp/ffffff" alt="WhatsApp"style="width:42px; height:42px;">
-    Consultar por WhatsApp
-  </a>
 
-  <div style="display:flex; justify-content:center; gap:28px; margin-top:22px;">
-    <a
-      href="https://www.instagram.com/mysagroindustria"
-      target="_blank">
-      <img
-        src="https://cdn.simpleicons.org/instagram"
-        alt="Instagram"
-        style="width:32px; height:32px;"
-    </a>
+        <p>
+          <strong>
+            Gregorio Laferrere, código postal 1757
+          </strong>
+        </p>
 
-    <a href="mailto:mysagroindustria@gmail.com">
-      <img
-        src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/envelope.svg"
-        alt="Email"
-        style="width:32px; height:32px;"
-    </a>
-  </div>
-</div>
-  
+
+        <!-- WHATSAPP -->
+
+        <a
+          class="contact-btn"
+          href="https://wa.me/5491166468829"
+          target="_blank"
+          rel="noopener">
+
+          <img
+            src="https://cdn.simpleicons.org/whatsapp/ffffff"
+            alt="WhatsApp">
+
+          Consultar por WhatsApp
+
+        </a>
+
+
+        <!-- INSTAGRAM Y EMAIL -->
+
+        <div class="social-links">
+
+
+          <a
+            href="https://www.instagram.com/mysagroindustria"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram de M&S Agro & Industria">
+
+            <img
+              src="https://cdn.simpleicons.org/instagram"
+              alt="Instagram">
+
+          </a>
+
+
+          <a
+            href="mailto:mysagroindustria@gmail.com"
+            aria-label="Enviar email a M&S Agro & Industria">
+
+            <img
+              src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/envelope.svg"
+              alt="Email">
+
+          </a>
+
+
+        </div>
+
+
+      </div>
+
     </section>
+
 
   </main>
 
 
-  <!-- PIE -->
+
+  <!-- =========================
+       PIE
+  ========================= -->
+
   <footer>
+
+
     <div class="container">
-      <p>© 2026 M&S Agro & Industria</p>
-      <p>Soluciones para el agro y la industria</p>
+
+
+      <p>
+        © 2026 M&S Agro & Industria
+      </p>
+
+
+      <p>
+        Flejes, hilos, cintas, film stretch e insumos
+        para agro, embalaje e industria.
+      </p>
+
+
+      <p>
+        Gregorio Laferrere, código postal 1757
+      </p>
+
+
     </div>
+
+
   </footer>
 
-<script>
-document.querySelectorAll('.stock').forEach(boton => {
-  const enlace = document.createElement('a');
-  enlace.href = 'https://wa.me/5491166468829';
-  enlace.target = '_blank';
-  enlace.className = 'stock';
-  enlace.style.textDecoration = 'none';
-  enlace.textContent = 'Consultar disponibilidad';
-  boton.replaceWith(enlace);
-});
-</script>
+
+
+  <!-- =========================
+       MENÚ CELULAR
+  ========================= -->
+
+  <script>
+
+
+    const menuToggle =
+      document.querySelector('.menu-toggle');
+
+
+    const nav =
+      document.querySelector('nav');
+
+
+    menuToggle.addEventListener('click', function() {
+
+
+      nav.classList.toggle('menu-open');
+
+
+      const abierto =
+        nav.classList.contains('menu-open');
+
+
+      menuToggle.setAttribute(
+        'aria-expanded',
+        abierto
+      );
+
+
+    });
+
+
+    document.querySelectorAll('nav a').forEach(function(enlace) {
+
+
+      enlace.addEventListener('click', function() {
+
+
+        nav.classList.remove('menu-open');
+
+
+        menuToggle.setAttribute(
+          'aria-expanded',
+          'false'
+        );
+
+
+      });
+
+
+    });
+
+
+  </script>
+
 
 </body>
+
 </html>
