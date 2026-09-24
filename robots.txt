@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mysagroindustria-art.github.io/ms-agro-industria/sitemap.xml
